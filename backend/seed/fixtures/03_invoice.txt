@@ -1,0 +1,10 @@
+INVOICE #NW-2026-0417
+
+From: Northwind Supplies LLP
+To: Acme Distribution Pvt Ltd
+Date: 14 July 2026
+
+Line item: Product Line A x 200 units @ INR 450/unit = INR 90,000
+Payment due: 45 days from invoice date, per Amendment No. 1.
+
+Total due: INR 90,000

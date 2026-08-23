@@ -1,0 +1,18 @@
+VENDOR SERVICES AGREEMENT
+
+This agreement is entered into between Acme Distribution Pvt Ltd ("Client")
+and Northwind Supplies LLP ("Vendor"), effective 1 January 2026.
+
+1. Payment Terms
+Client shall pay Vendor within 30 days of receipt of a valid invoice.
+
+2. Pricing
+Unit price for Product Line A is fixed at INR 450 per unit for the term of
+this agreement.
+
+3. Term
+This agreement is valid for 12 months from the effective date, renewable by
+mutual written consent.
+
+4. Termination
+Either party may terminate this agreement with 60 days' written notice.
