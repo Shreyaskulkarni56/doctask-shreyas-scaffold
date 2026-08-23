@@ -27,9 +27,18 @@ make demo
 That brings up Postgres (with pgvector), the FastAPI backend, and the React
 review UI, then seeds one demo pile. Backend health: `http://localhost:8000/health`.
 
+### LLM Provider Configuration (`LLM_PROVIDER`)
+
+The system supports two LLM execution modes configured in `.env`:
+
+1. **`LLM_PROVIDER=mock`** (Default): Zero API cost, offline execution using deterministic rule/regex-based extraction (`_mock_response` in `llm_client.py`). Used for test suites (`make test`) and zero-cost local runs.
+2. **`LLM_PROVIDER=groq`**: Live API execution via Groq (`GROQ_API_KEY`).
+
 ```bash
-make test   # full suite, LLM_PROVIDER=mock, no live key needed
+# Run test suite using zero-cost mock provider
+LLM_PROVIDER=mock pytest backend/tests/
 ```
+
 
 ## Architecture
 
