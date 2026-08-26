@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import UseCasesMarquee from "./UseCasesMarquee";
 
 const STAGES = [
   "classify_documents",
@@ -779,6 +780,9 @@ export default function Dashboard() {
           )}
         </div>
       )}
+
+      {/* Real-World Enterprise Use Cases Right-to-Left Marquee */}
+      <UseCasesMarquee />
     </div>
   );
 }
