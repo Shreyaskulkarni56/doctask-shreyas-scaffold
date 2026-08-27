@@ -84,6 +84,22 @@ export default function Navbar({ activeTab, setActiveTab }) {
         >
           Blog
         </button>
+        <button
+          onClick={() => setActiveTab("usecases")}
+          style={{
+            background: "none",
+            border: "none",
+            fontSize: "14px",
+            fontWeight: activeTab === "usecases" ? 600 : 400,
+            color: activeTab === "usecases" ? "#18181b" : "#71717a",
+            cursor: "pointer",
+            padding: "4px 0",
+            borderBottom: activeTab === "usecases" ? "2px solid #ea580c" : "2px solid transparent",
+            transition: "all 0.15s ease"
+          }}
+        >
+          Use Cases
+        </button>
       </div>
     </nav>
   );

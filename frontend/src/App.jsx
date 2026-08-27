@@ -4,10 +4,11 @@ import Hero from "./components/Hero";
 import Dashboard from "./components/Dashboard";
 import BlogPage from "./components/BlogPage";
 import JourneyPage from "./components/JourneyPage";
+import UseCasesPage from "./components/UseCasesPage";
 import Footer from "./components/Footer";
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState("hero"); // "hero" | "dashboard" | "blog" | "journey"
+  const [activeTab, setActiveTab] = useState("hero"); // "hero" | "dashboard" | "blog" | "journey" | "usecases"
 
   return (
     <div style={{
@@ -37,6 +38,8 @@ export default function App() {
           {activeTab === "blog" && <BlogPage />}
 
           {activeTab === "journey" && <JourneyPage />}
+
+          {activeTab === "usecases" && <UseCasesPage />}
         </main>
       </div>
 
